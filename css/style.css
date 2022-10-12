@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(101, 163, 255);
+    padding: 10px;
+}
+.navBar{
+    background-color: rgb(101, 163, 255);
+}
+.navBar li{
+    list-style: none;
+    display: inline;
+}
+.navBar li a{
+    text-decoration: none;
+}
+
+main section li{
+    display: inline;
+}
+
+main{
+    background-color:  rgb(101, 163, 255);
+}
+
+.mainBox1{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainBox1 div h2 {
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.tit1{
+    margin: 20px;
+    text-align: center;
+}
+.art1{
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+}
+
+.cardImage{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(101, 163, 255);
+    padding: 10px;
+}
+form submit{
+    border-style:solid;
+    border-radius: 20%;
+    color: blue;
+}
+
+button {
+    border-style:solid;
+    border-radius: 20%;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+}
